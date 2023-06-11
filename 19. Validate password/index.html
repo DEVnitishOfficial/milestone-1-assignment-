@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASSWORD VALIDATION</title>                 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>VALIDATE PASSWORD</h1> 
+    <form id="login-form">
+        <div class="email">  
+        <label for="email-input">Entre Email : </label>
+        <input id="email-input" type="text" required>
+        </div>
+     <div>      
+        <label for="password-input">Entre Password : </label>
+        <input id="input-password" type="password" required> 
+    </div>
+    <button id="sub-button">submit</button>
+    </form>
+    <!-- <button id="sub-button" form="login-form">submit</button> -->
+    <div class="output" > 
+    <p id="error-message">Invalid email or password!</p>
+    <p id="validation-message">Valid email and password!</p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

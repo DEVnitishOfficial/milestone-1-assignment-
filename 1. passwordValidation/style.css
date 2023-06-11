@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+*{
+  font-family: 'Roboto Mono', monospace;  
+}
+
+body{
+    background-color: rgb(208, 171, 171);
+    /* text-align: center; */
+}
+
+body h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ body input{
+    display: block;
+    display: flex;
+    margin-bottom: 10px;
+}
+body input:hover{
+    padding: 10px 30px;
+    border-color: red;
+    box-shadow: 0 0 5px black;
+}
+
+.content{
+    font-size: 20px;
+    font-weight: 800;
+}
+.content:hover{
+    color: green;
+    font-size: 50px;
+}
+#validatePass:hover{
+    font-size: 50px;
+    border-radius: 20px;
+    background-color: yellow;
+    border-color: red;
+    box-shadow: 0 0 10px black;
+    
+}
+body div{
+    margin-left: 700px;
+    margin-top: 100px;
+}

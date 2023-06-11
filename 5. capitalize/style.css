@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    gap: 100px;
+    background-color: aquamarine;
+}
+.holy{
+   margin-right: 700px;
+}
+label{
+    font-size: 70px;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+body h1{
+    margin-bottom: 20px;
+    font-size: 100px;
+    color: green;
+    margin-bottom: 40px;
+}
+.shadow{
+    box-shadow: 0 0 20px black;
+    padding: 80px 120px;
+    background-color: rgb(54, 166, 218);
+}
+#blankContainer{
+    font-size: 50px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: rgb(110, 110, 105);
+    color: white;
+    font-size: 20px;
+    border: none;
+}

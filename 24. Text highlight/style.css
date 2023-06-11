@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+.top-page{
+    justify-content: center;
+    margin-left: 30px;
+}
+header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+body{
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-weight: 900;
+    position: relative;
+    left: -100%;
+    animation: slideIn 1s forwards, glowing 4s linear infinite;
+  }
+@keyframes glowing {
+    0%{
+        color: rgb(237, 241, 1);
+        text-shadow: 0 0 50px rgb(0, 0, 0);
+    }
+    50%{
+        color: rgb(255, 0, 0);
+        text-shadow:0 0 20px rgb(5, 236, 5);
+    }
+    100%{
+        color: aqua;
+        text-shadow:0 0 20px rgb(243, 241, 244);
+    }  
+}
+@keyframes slideIn {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+button{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: gold;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+  border:none;
+}
+input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: gold;
+    text-align: center;
+    border:2px solid gold;
+    width: 10%;
+}
+input:focus{
+ outline: none;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Calculate cart cost</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculating Total Cart Cost</h1>
+    </header>
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- 10 DIFFERENT TOY PRODUCT IMAGES ARE BELOW -->
+
+    <div class="content">
+      <!-- FIRST FIVE PRODUCT TOY IMAGES -->
+      <div class="first-5-toy">
+
+        <!-- CARD-1 -->
+        <div class="toy">
+          <span>
+            <img src="assets/img1.jpg" alt="" />
+            <p>price: 100&#8377;</p>
+            <button type="button" onclick="selectToy(0)">Add to cart</button>
+          </span>
+        </div>
+
+         <!-- CARD-2 -->
+        <div class="toy">
+          <span>
+            <img src="assets/img2.jpg" alt="" />
+            <p>price: 200&#8377;</p>
+            <button onclick="selectToy(1)">Add to cart</button>
+          </span>
+        </div>
+
+         <!-- CARD-3 -->
+        <div class="toy">
+          <span>
+            <img src="assets/img3.jpg" alt="" />
+            <p>price: 300&#8377;</p>
+            <button onclick="selectToy(2)">Add to cart</button>
+          </span>
+        </div>
+
+         <!-- CARD-4 -->
+        <div class="toy">
+          <span>
+            <img src="assets/img4.jpg" alt="" />
+            <p>price: 400&#8377;</p>
+            <button onclick="selectToy(3)">Add to cart</button>
+          </span>
+        </div>
+
+         <!-- CARD-5 -->
+        <div class="toy">
+          <span>
+            <img src="assets/img5.jpg" alt="" />
+            <p>price: 500&#8377;</p>
+            <button onclick="selectToy(4)">Add to cart</button>
+          </span>
+        </div>
+      </div>
+      
+      <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+      <!-- SECOND FIVE PRODUCT TOY IMAGE -->
+
+      <div class="second-5-toy">
+
+         <!-- CARD-6 -->
+        <div class="toy">
+          <span>
+            <img src="assets/img6.jpg" alt="" />
+            <p>price: 600&#8377;</p>
+            <button onclick="selectToy(5)">Add to cart</button>
+          </span>
+        </div>
+
+         <!-- CARD-7 -->
+        <div class="toy">
+          <span>
+            <img src="assets/img7.jpg" alt="" />
+            <p>price: 700&#8377;</p>
+            <button onclick="selectToy(6)">Add to cart</button>
+          </span>
+        </div>
+
+         <!-- CARD-8 -->
+        <div class="toy">
+          <span>
+            <img src="assets/img8.jpg" alt="" />
+            <p>price: 800&#8377;</p>
+            <button onclick="selectToy(7)">Add to cart</button>
+          </span>
+        </div>
+
+         <!-- CARD-9 -->
+        <div class="toy">
+          <span>
+            <img src="assets/img9.jpg" alt="" />
+            <p>price: 900&#8377;</p>
+            <button onclick="selectToy(8)">Add to cart</button>
+          </span>
+        </div>
+        
+         <!-- CARD-10 -->
+        <div class="toy">
+          <span>
+            <img src="assets/img10.jpg" alt="" />
+            <p>price: 1000&#8377;</p>
+            <button onclick="selectToy(9)">Add to cart</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- CREATING TABLE FOR CLACULATING TOTAL AMOUNT AND TOTAL PRICE -->
+    <footer class="bill-book">
+      <div class="price-table">
+        <!-- CREATING TOP OF THE TABLE -->
+        <div class="creating-table">
+          <h3>Sr. No.</h3>
+          <h3>Toy img.</h3>
+          <h3>Toy name</h3>
+          <h3>Quantity</h3>
+          <h3>Price(&#8377;)</h3>
+        </div>
+        <!-- ADDING CONTENT OF THE TABLE -->
+        <div class="price-content">
+          <!-- <div class="creating-content">  
+          <h3>1</h3>
+          <h3><img src="./assets/img1.jpg" alt=""></h3>
+          <h3>Toy 1</h3>
+          <h3>5</h3>
+          <h3>5*20 = 100</h3>
+        </div>
+        <hr> -->
+        </div>
+        <!-- ADDING FOOTER OF THE TABLE -->
+        <div class="Total-price-bottom">
+          <h3 class="total-quantity">Total Quantity : 0</h3>
+          <h3 class="Total-amount">Total Amount : 0</h3>
+        </div>
+      </div>
+    </footer>
+    <!-- ADDING SCRIPT FILE -->
+    <script src="./script.js"></script>
+  </body>
+</html>

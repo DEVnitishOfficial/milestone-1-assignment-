@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    padding: 1%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+}
+header > h1{
+    color: rgb(74, 255, 3);
+    text-transform: capitalize;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* STYLING MAIN OF THE HTML PAGE */
+
+main{
+    color: white;
+}
+
+#input-screen{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ gap: 30px;
+}
+
+#input-screen-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+#input-screen-1 > span > label{
+    color: rgb(5, 223, 239);
+    font-size: 22px;
+}
+#input-screen-1 > span > input{
+    padding: 4px 18px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid rgb(1, 233, 245);
+    color:  rgb(239, 5, 196);
+    font-size: 25px;
+    text-align: center;
+}
+button{
+    font-size: 25px;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(4, 248, 4);
+    box-shadow: 0 0 10px rgb(1, 255, 1) ;
+    cursor: pointer;
+}
+#input-screen-2{
+    display: none; 
+/* border: 1px solid blue; */
+	/* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#input-screen-2 > header > h2{
+    color: rgb(5, 223, 239);
+
+	border-bottom: 2px rgb(236, 6, 167) solid;
+}
+#input-2-body{
+    display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 20px;
+	row-gap: 10px;
+}
+.dish > label{
+    color: rgb(5, 223, 239);
+	font-size: 18px;
+}
+.dish > input{
+    padding: 6px 12px;
+	width: 100px;
+
+	background-color: transparent;
+	border: 2px solid rgb(5, 223, 239);
+
+	  color: rgb(239, 5, 196);
+	font-size: 25px;
+	text-align: center;
+}
+
+#input-screen-3{
+   display: none;    
+   /* border: 1px solid blue; */
+	/* display: flex; */
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+#input-screen-3 > span > label{
+    color: rgb(5, 223, 239);
+    font-size: 22px;
+}
+#input-screen-3 > span > input{
+    padding: 4px 20px;
+    width: 100px;
+
+    background-color: transparent;
+    border: 2px solid rgb(10, 227, 239);
+
+    color:  rgb(239, 5, 196);
+    font-size: 25px;
+    text-align: center;
+}
+/* removing outline when input tag become focused */
+input:focus{
+    outline: none;
+}
+#output-screen{
+ margin-top: 30px;
+ margin-bottom: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+}
+#output-screen > p{
+    color: rgb(5, 223, 239);
+    font-size: 22px;
+}
+#output-screen > p > span{
+    border-bottom: 2px solid rgb(254, 1, 238);
+    color: rgb(174, 4, 241);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-apperance: none;
+    -moz-apperance:none;
+    appearance: none;
+    margin: 0px;
+}
+
+
+
+
+

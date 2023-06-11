@@ -1,0 +1,82 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair', serif;
+}
+body{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 30px;
+    border: 2px solid pink;
+    width: 50%;
+    margin-left: 25%;
+    padding: 30px;
+    background-color: black;
+    box-shadow: 0px 0px 500px #07e68d;
+}
+h1{
+    margin-bottom: 20px;
+    color: rgb(6, 255, 2);
+}
+#checkMaster{
+    color: darkviolet;
+    display: none;
+  margin-left: 15%;
+}
+label{
+    color: rgb(0, 255, 255);
+    font-size: 40px;
+}
+input{
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid rgb(2, 255, 255);
+    color: rgb(0, 255, 255);
+    text-align: center;
+    width: 40%;
+}
+input:focus{
+outline: none;
+
+}
+button{
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+button:hover{
+    font-size: 35px;
+    background-color: rgb(6, 245, 22);
+    border: none;
+}
+span{
+    color: rgb(2, 252, 2);
+}
+#toDoTask{
+    list-style-type: none;
+    padding: 0;
+
+}
+.todoClass{
+    color: white;
+}
+.todoClass input[type="checkbox"] {
+    margin-right: -15%;
+  }
+  .todoClass{
+    margin-right: 20%;
+  }
+.delete-icon, #clearAllBtn {
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+  }
+  
+  

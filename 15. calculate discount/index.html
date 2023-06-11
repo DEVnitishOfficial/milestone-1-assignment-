@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATE DISCOUNT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculate Discount Price</h1>
+    </header>
+    <div class="content">
+        <span>
+            <label for="actualPrice">Entre product original price : </label>
+            <input id="actualPrice" type="number">
+        </span>
+        <span>
+            <label for="discountedPrice">Entre product discounted price : </label>
+            <input id="discountedPrice" type="number">
+        </span>
+        <span class="btn">
+            <button id="disc-btn">Show Discount</button>
+            <button onclick="location.reload()">Refresh</button>
+        </span>
+    </div>
+    <footer>
+        <div class="output"></div>
+        <img class="cong-img" src="./cong.gif" alt="">
+      
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>

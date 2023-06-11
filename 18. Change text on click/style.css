@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+body{
+    text-align: center;
+    margin-top: 10%;
+    background-color: black;
+    color: wheat;
+}
+h1{
+font-size: 40px;
+animation: glowing 1s linear infinite;
+}
+button{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: rgb(234, 251, 0);
+    margin-top: 5%;
+}
+button:hover{
+    font-size: 35px;
+    background-color: aqua;
+}
+@keyframes glowing {
+    0% {
+        color: rgb(24, 214, 37);
+    }
+    50% {
+        color: yellow;
+    }
+    100% {
+        color: rgb(153, 0, 255);
+    }
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto,'Courier New', Courier, monospace
+}
+body{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    padding: 30px 30px;
+    width: 50%;
+  
+}
+h1{
+    color: rgb(5, 239, 5); 
+}
+form{
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 30px;
+   
+}
+input{
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    background: transparent;
+    border: 2px solid  rgb(5, 239, 5);
+    color:  rgb(5, 239, 5);
+    
+}
+input:focus{
+    outline: none;
+}
+button{
+    margin-top: 30px;
+    font-size: 30px; 
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: rgb(6, 185, 240);
+    color: white;
+    border: none;
+}
+button:hover{
+    font-size: 35px;
+    background-color: gold;
+    font-weight: 700;
+}
+.email{
+    margin-bottom: 30px;
+}
+.output{
+    font-size: 30px;
+    margin-top: 5%;
+}
+#error-message {
+    color: red;
+    display: none;
+  }
+
+ #validation-message {
+    color: green;
+    display: none;
+  }

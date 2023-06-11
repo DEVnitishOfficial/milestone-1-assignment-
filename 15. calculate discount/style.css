@@ -1,0 +1,77 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+}
+h1{
+ margin-bottom: 50px;
+ font-size: 40px;
+ color: rgb(0, 255, 30);
+}
+.content{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    font-size: 30px;
+    border-radius: 4px;
+    width: 10%;
+    text-align: center;
+    background: transparent;
+    border: 3px solid rgb(0, 255, 30);
+    color: rgb(0, 255, 30);
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+
+}
+input:focus{
+    outline: none;
+}
+
+button{
+    font-size: 30px;
+    margin-left: 60px;
+    margin-right: 40px;
+    padding: 8px;
+    border-radius:10px;
+    margin-top: 2%;
+    background-color: rgb(0, 200, 255);
+    color: white;
+    border: none;
+}
+button:hover{
+    font-size: 33px;
+    background-color: cadetblue;
+}
+.output{
+    margin-top: 5%;
+    font-size: 28px;
+}
+.discount-percentage {
+    color: rgb(0, 255, 26);
+  }
+  .cong-img{
+    display: none;
+    margin-left: 40%;
+    margin-top: 2%;
+  }

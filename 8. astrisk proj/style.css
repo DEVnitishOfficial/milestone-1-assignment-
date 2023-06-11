@@ -1,0 +1,77 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    
+}
+body{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color:rgb(82, 136, 151);
+}
+h1{
+    font-size: 50px;
+     color: rgb(60, 255, 0);
+}
+main > label{
+    font-size: 30px;
+    color: white;
+}
+input{
+   display: block;
+   text-align: center;
+   margin-left: 480px;
+   gap: 50px;
+   margin-top: 50px;
+   width: 80px;
+   height: 30px;
+   border-radius: 3px;
+   border: none;
+}
+input:focus{
+    transform: scale(2);
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance: none;
+    margin: 0;
+}
+button{
+    padding: 10px 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+    gap: 100px;
+    border-radius: 10px;
+    background-color: rgb(0, 255, 247);
+    color: white;
+    font-size: 30px;
+    border: none;
+    text-transform: capitalize;
+}
+button:hover{
+    background-color: blueviolet;
+    box-shadow: 0 0 20px white;
+
+}
+#blankContainer{
+    border: 5px solid gray;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 10px 30px;
+    display: block;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: rgb(231, 247, 7);
+    font-weight: 900;
+}

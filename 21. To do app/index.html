@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>creating to do list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <h1>To Do App</h1>
+    <div id="input-section">
+        <label for="taskInput">Entre your task : </label>
+        <input type="text" id="taskInput" placeholder="eg. morning exercise" required>
+        <!-- <i class="fas fa-trash-alt delete-icon"></i> -->
+    </div>
+    <button id="taskBtn">submit task</button>
+    <h3 id="checkMaster">To do the task checkout the checkbox</h3>
+    <ul id="toDoTask"></ul>
+
+    <p type="button" id="clearAllBtn">Clear All List</p>
+</body>
+<script src="script.js"></script>
+
+</html>
